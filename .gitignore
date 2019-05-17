@@ -1,2 +1,4 @@
 *.ckpt
 *.pyc
+*.pkl
+*.out
