@@ -26,7 +26,7 @@ def primitive_defend(x_0_to_1, n_triangle=200, type_primitive='1', tmp_index=1, 
     
     # call program primitive in shell
     subprocess.call(
-       'primitive -i '+input_image_filename+' -o '+
+       '~/go/bin/primitive -i '+input_image_filename+' -o '+
         output_image_filename+' -n '+str_n_triganle+
         ' -s '+str_size+' -m '+ type_primitive, shell=True)
         
