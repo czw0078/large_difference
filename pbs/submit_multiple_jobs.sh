@@ -1,5 +1,5 @@
 #!/bin/bash
-for i_start in {0..19..10}
+for i_start in {0..999..10}
 do
     let "i_end = i_start + 10"
     echo $1, $i_start, $i_end 

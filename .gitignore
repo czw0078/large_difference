@@ -2,3 +2,6 @@
 *.pyc
 *.pkl
 *.out
+*.pbs.e*
+*.pbs.o*
+*.swp
