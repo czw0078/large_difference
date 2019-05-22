@@ -153,9 +153,10 @@ class ImageNet(Provider):
         return arr
 
 class ImageNet_val_1k(Provider): # change into ImageNet_val_1k
-    def __init__(self, path, shape):
+    def __init__(self, path, shape, tag): 
         self._path = path
         self._shape = shape
+        self._tag = tag 
 
     def provides(self, dataset):
         return isinstance(dataset, d.ImageNet) and self._shape == dataset.shape
@@ -183,14 +184,17 @@ class ImageNet_val_1k(Provider): # change into ImageNet_val_1k
 
     def __getitem__(self, index):
         x_orig, y, name = self.get_image_item(index)
-        snapshots = len(glob.glob(self._path+'/snapshot_*')) 
-        if snapshots > 0:
-            folder = self._path+'/snapshot_%04d'%snapshots
-            x_adv = self.get_pickle_item(folder+'/'+ name +'.pkl')
+        # name = ILSVRC2012_val_00049837
+        pkl_list = glob.glob(self._path+'/parameter_'+self._tag+'/snapshot_*'+'/'+name+'.pkl')
+        n_pkl = len(pkl_list)
+
+        if n_pkl > 0:
+            x_adv = self.get_pickle_item(pkl_list[-1])
         else:
             x_adv = np.copy(x_orig)
-        new_folder = self._path + '/snapshot_%04d'%(snapshots+1)
-        return x_adv, x_orig, y, new_folder+'/'+ name +'.pkl' #
+         
+        new_pkl_path = self._path+'/parameter_'+self._tag+'/snapshot_%04d'%(n_pkl+1)+'/'+name+'.pkl'
+        return x_adv, x_orig, y, new_pkl_path 
 
     # get centered crop of self._size
     def _load_image(self, path):

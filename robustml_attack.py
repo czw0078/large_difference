@@ -186,6 +186,9 @@ def main():
     parser.add_argument('--type_primitive_defense', type=str, default='1')
     parser.add_argument('--primitive_tmp_dir', type=str, default='./ram')
     args = parser.parse_args()
+    
+    # use the parameter as the tag
+    tag="{0:04d}_{1:04d}".format(args.n_shapes_defense, args.n_shapes_attack_BPDA)
 
     # set up TensorFlow session
     sess = tf.Session()
@@ -210,7 +213,7 @@ def main():
         attack = NA(sess, model, model.threat_model.epsilon, debug=args.debug)
 
     # initialize a data provider for ImageNet images
-    provider = robustml.provider.ImageNet_val_1k(args.imagenet_path, model.dataset.shape)
+    provider = robustml.provider.ImageNet_val_1k(args.imagenet_path, model.dataset.shape, tag)
 
     success_rate = robustml.evaluate.evaluate(
         model,
