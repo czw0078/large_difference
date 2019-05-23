@@ -1,9 +1,0 @@
-#!/bin/bash
-#PBS -l nodes=1:ppn=1
-#PBS -l walltime=08:00:00
-#PBS -m e
-#PBS -M chengfeiwang.aka.chance@gmail.com
-cd ~/sparse_representation
-mkdir -p /dev/shm/ram
-python robustml_attack.py --imagenet-path ./test_val_1k --defense primitive --n_shapes_defense 1200 --debug --max_steps_attack 10 --attack BPDA --n_shapes_attack_BPDA 1200 --start ${START} --end ${END} --primitive_tmp_dir /dev/shm/ram --snapshot_adv
-

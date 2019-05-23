@@ -42,7 +42,7 @@ def evaluate(model, attack, provider, start=None, end=None, deterministic=False,
         if not threat_model.check(np.copy(x_orig), np.copy(x_adv)):
             if debug:
                 print('check failed', file=sys.stderr)
-            continue
+            # continue # do not skip the calculation
         y_adv = model.classify(np.copy(x_adv))
         if debug:
             print('true = %d, adv = %d' % (y, y_adv), file=sys.stderr)
