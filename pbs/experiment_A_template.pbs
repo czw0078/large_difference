@@ -1,8 +1,10 @@
 #!/bin/bash
 #PBS -l nodes=1:ppn=1
-#PBS -l walltime=01:00:00
+#PBS -l walltime=02:00:00
 #PBS -m e
 #PBS -M chengfeiwang.aka.chance@gmail.com
+#PBS -o ../results/experiment_A/${RESULT_FOLDER}/stdout.out
+#PBS -e ../results/experiment_A/${RESULT_FOLDER}/stderr.out
 cd ~/sparse_representation
 python robustml_attack.py --imagenet-path ./test_val_1k --defense none --debug --attack none --start ${START} --end ${END}
 

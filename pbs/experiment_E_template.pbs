@@ -1,10 +1,10 @@
 #!/bin/bash
 #PBS -l nodes=1:ppn=1
-#PBS -l walltime=08:00:00
+#PBS -l walltime=10:00:00
 #PBS -m e
 #PBS -M chengfeiwang.aka.chance@gmail.com
-#PBS -o ../${RESULT_FOLDER}/stdout.out 
-#PBS -e ../${RESULT_FOLDER}/stderr.out 
+#PBS -o ../results/experiment_E/${RESULT_FOLDER}/stdout.out 
+#PBS -e ../results/experiment_E/${RESULT_FOLDER}/stderr.out 
 parameter=$(printf '%04d_%04d' ${N_DEFENSE} ${N_ATTACK})
 cd ~/sparse_representation
 mkdir -p /dev/shm/ram/parameter_$parameter
