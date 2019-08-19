@@ -7,3 +7,22 @@ Repo of the source code for the paper "Sparse Representation And Adversarial Rob
 * ./setup.sh to download inception_v3 model
 
 This framework use pre-trained model, the author used cpu version of tensorflow and python from Anaconda.
+
+# file structure:
+
+* pkl stored in test_val_1k/parameter_xxxx/snapshot_xxxx/start_xxxx
+controlled by provider
+
+* output stored in results/parameter_xxxx/snapshot_xxxx/start_xxxx
+controlled by the .pbs
+
+* primitive tmp files stored in dev/shm/ram/parameter_xxxx
+controlled by the .pbs
+
+# Analysis
+bash script
+
+```bash
+for each in start_*/*out.out; do tail -n 1 $each >> tmp.out; done
+cut -f 4 -d ' ' tmp.out
+```
