@@ -8,7 +8,7 @@ Repo of the source code for the paper "Sparse Representation And Adversarial Rob
 
 This framework use pre-trained model, the author used cpu version of tensorflow and python from Anaconda.
 
-# file structure:
+# File Structure:
 
 * pkl stored in test_val_1k/parameter_xxxx/snapshot_xxxx/start_xxxx
 controlled by provider
