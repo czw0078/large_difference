@@ -19,6 +19,11 @@ controlled by the .pbs
 * primitive tmp files stored in dev/shm/ram/parameter_xxxx
 controlled by the .pbs
 
+# Check Completeness
+```bash
+tail -n 1 start_*/*out.out;
+```
+
 # Analysis
 bash script
 
