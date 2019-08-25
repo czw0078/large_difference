@@ -153,12 +153,12 @@ class ImageNet(Provider):
         return arr
 
 class ImageNet_val_1k(Provider): # change into ImageNet_val_1k
-    def __init__(self, path, shape, tag, start, snapshot=None): # tag for parameter, start for --start option 
+    def __init__(self, path, shape, tag, start, n_snapshot=-1): # tag for parameter, start for --start option 
         self._path = path
         self._shape = shape
         self._tag = tag 
         self._start = start
-        self._snapshot = snapshot
+        self._snapshot = n_snapshot
 
     def provides(self, dataset):
         return isinstance(dataset, d.ImageNet) and self._shape == dataset.shape
@@ -192,10 +192,10 @@ class ImageNet_val_1k(Provider): # change into ImageNet_val_1k
         n_pkl = len(pkl_list)
 
         # new added: set the snapshot
-        if self.snapshot != None:
+        if self.snapshot != -1:
             nsp = self.snapshot - 1
             if nsp > 0:
-                pkl_path = self._path+'/parameter_'+self._tag+'/snapshot_%04d'%(self._snapshot)+'/start_%04d'%(self._start)+'/'+name+'.pkl'  
+                pkl_path = self._path+'/parameter_'+self._tag+'/snapshot_%04d'%(nsp)+'/start_%04d'%(self._start)+'/'+name+'.pkl'  
                 x_adv = self.get_pickle_item(pkl_path)
             else:
                 x_adv = np.copy(x_orig)

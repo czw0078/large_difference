@@ -178,6 +178,7 @@ def main():
     parser.add_argument('--end', type=int, default=1) # change for at least 10
     parser.add_argument('--debug', action='store_true')
     parser.add_argument('--snapshot_adv', action='store_true')
+    parser.add_argument('--n_snapshot', type=int, default=-1) 
     parser.add_argument('--early_stop', action='store_true')
     parser.add_argument('--n_shapes_defense', type=int, default=200)
     parser.add_argument('--n_shapes_attack_BPDA', type=int, default=200)
@@ -213,7 +214,7 @@ def main():
         attack = NA(sess, model, model.threat_model.epsilon, debug=args.debug)
 
     # initialize a data provider for ImageNet images
-    provider = robustml.provider.ImageNet_val_1k(args.imagenet_path, model.dataset.shape, tag, args.start)
+    provider = robustml.provider.ImageNet_val_1k(args.imagenet_path, model.dataset.shape, tag, args.start, args.n_snapshot)
 
     success_rate = robustml.evaluate.evaluate(
         model,
