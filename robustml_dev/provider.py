@@ -192,8 +192,8 @@ class ImageNet_val_1k(Provider): # change into ImageNet_val_1k
         n_pkl = len(pkl_list)
 
         # new added: set the snapshot
-        if self.snapshot != -1:
-            nsp = self.snapshot - 1
+        if self._snapshot != -1:
+            nsp = self._snapshot - 1
             if nsp > 0:
                 pkl_path = self._path+'/parameter_'+self._tag+'/snapshot_%04d'%(nsp)+'/start_%04d'%(self._start)+'/'+name+'.pkl'  
                 x_adv = self.get_pickle_item(pkl_path)

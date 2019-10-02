@@ -27,6 +27,7 @@ tail -n 1 start_*/*out.out;
 # Clean And Re-run:
 ```bash
 ./submit_multiple_jobs_fix.sh experiment_E_template.pbs 1400 1400 1
+qstat -u czw0078
 ```
 
 # Analysis
