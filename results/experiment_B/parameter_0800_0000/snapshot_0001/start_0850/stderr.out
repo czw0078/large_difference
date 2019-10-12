@@ -1,0 +1,35 @@
+2019-05-31 10:20:53.606764: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-05-31 10:20:53.616428: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2599980000 Hz
+2019-05-31 10:20:53.616633: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2aaae6e49fa0 executing computations on platform Host. Devices:
+2019-05-31 10:20:53.616666: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-31 10:20:53.617000: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+evaluating 850 of [850, 860)
+attack: step 1/1, xent loss = 2.25407, l2 loss = 0 (max 14.95), (true 227, predicted [184])
+true = 227, adv = 879
+evaluating 851 of [850, 860)
+attack: step 1/1, xent loss = 2.14233, l2 loss = 0 (max 14.95), (true 377, predicted [680])
+true = 377, adv = 728
+evaluating 852 of [850, 860)
+attack: step 1/1, xent loss = 0.08661, l2 loss = 0 (max 14.95), (true 133, predicted [133])
+true = 133, adv = 728
+evaluating 853 of [850, 860)
+attack: step 1/1, xent loss = 1.93213, l2 loss = 0 (max 14.95), (true 52, predicted [53])
+true = 52, adv = 391
+evaluating 854 of [850, 860)
+attack: step 1/1, xent loss = 3.37507, l2 loss = 0 (max 14.95), (true 620, predicted [681])
+true = 620, adv = 830
+evaluating 855 of [850, 860)
+attack: step 1/1, xent loss = 0.0553346, l2 loss = 0 (max 14.95), (true 360, predicted [360])
+true = 360, adv = 2
+evaluating 856 of [850, 860)
+attack: step 1/1, xent loss = 2.24626, l2 loss = 0 (max 14.95), (true 492, predicted [492])
+true = 492, adv = 797
+evaluating 857 of [850, 860)
+attack: step 1/1, xent loss = 1.11326, l2 loss = 0 (max 14.95), (true 824, predicted [735])
+true = 824, adv = 735
+evaluating 858 of [850, 860)
+attack: step 1/1, xent loss = 0.00499726, l2 loss = 0 (max 14.95), (true 614, predicted [614])
+true = 614, adv = 614
+evaluating 859 of [850, 860)
+attack: step 1/1, xent loss = 2.87884, l2 loss = 0 (max 14.95), (true 68, predicted [42])
+true = 68, adv = 999

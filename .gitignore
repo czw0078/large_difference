@@ -6,3 +6,4 @@
 *.pbs.o*
 *.swp
 *.unit
+!results/**
