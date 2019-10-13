@@ -6,4 +6,5 @@
 *.pbs.o*
 *.swp
 *.unit
+tags
 !results/**
