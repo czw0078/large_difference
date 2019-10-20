@@ -3,44 +3,21 @@
 import matplotlib
 matplotlib.use('agg')
 
-import numpy as np
 import os
 import errno
-import matplotlib.pyplot as plt
-from pylab import *
-import pylab
-import textwrap
-from mpl_toolkits.axes_grid1 import AxesGrid
-from PIL import Image
-
 from tqdm import tqdm
 import argparse
-import pdb
+# import textwrap
+# import pdb
+
+import matplotlib.pyplot as plt
+import pylab
+from mpl_toolkits.axes_grid1 import AxesGrid
+from PIL import Image
 
 import tensorflow as tf
 import inceptionv3
 import utils
-
-
-# net = models.inception_v3(pretrained=True)
-
-# def applyModel299(file_path, model):
-#     preprocess = transforms.Compose([
-#         transforms.ToTensor(),
-#         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),])
-
-#     pil_img = Image.open(file_path)
-#     img = preprocess(pil_img)
-#     # pdb.set_trace()
-#     img = img[None, :, :, :]
-#     model.eval()
-#     out = model(img)
-
-#     scores = torch.nn.functional.softmax(out, dim=1)
-#     pdb.set_trace()
-
-#     return pil_img, scores[0].detach().numpy() # output, PIL png image, numpy array length 1000
-
 
 def prepareTensorflowModel():
     sess = tf.Session()
@@ -64,7 +41,6 @@ def classifyImage(path_input):
   return input_image, prediction
 
 def drawImage(input_image, prediction):
-  #plt.subplot(211)
   plt.subplot2grid((3,1), (0,0), rowspan=2)
 
   # Now print out the image and the probability
@@ -81,10 +57,10 @@ def getPredictions(prediction, lines, ground_truth):
     line = line.strip('\n')
 
     words = line.split(' ', 1)
-    cat_id = words[0]
+    # cat_id = words[0]
     cat_desc = words[1].split(',', 1)[0]
     cat_desc_list = cat_desc.split(' ')
-    # no text wrap, just use first and last word combine
+    # use first and last word combine
     if len(cat_desc_list) == 1:
         cat_desc_short = cat_desc_list[0]
     else:
@@ -109,7 +85,7 @@ def getPredictions(prediction, lines, ground_truth):
   return (val[:6], labels[:6])
 
 
-def drawPredictions(values, labels):
+def drawPredictions(values, labels, wrong_label=None):
   ax = plt.subplot2grid((3,1), (2,0))
   ax.margins(y=0)
   pos = pylab.arange(6)    # the bar centers on the y axis
@@ -124,14 +100,21 @@ def drawPredictions(values, labels):
 
   # Lastly, write in the ranking inside each bar to aid in interpretation
   for rid, rect in enumerate(rects):
-    width = int(rect.get_width())
 
     align = 'right'
     xloc = 0.98
     clr = 'black'
-    w = labels[rid].split(",")
-    shorten_label = w[0]
-    wrapped_label = '\n'.join(textwrap.wrap(shorten_label, 25)) 
+
+    # TODO change the color to shallow blue, rect.set_color("?")
+    # add TARGET, if label equals certain name, gives pink color
+    if wrong_label and wrong_label == labels[rid]:
+        rect.set_color('pink')
+    else:
+        rect.set_alpha(0.6)
+
+    # w = labels[rid].split(",")
+    # shorten_label = w[0]
+    # wrapped_label = '\n'.join(textwrap.wrap(shorten_label, 25)) 
 
     # Center the text vertically in the bar
     yloc = rect.get_y()+rect.get_height()/2.0
@@ -144,19 +127,19 @@ def drawPredictions(values, labels):
       align = 'center'
 
     # No stroke
-    pylab.text(xloc, yloc, wrapped_label, horizontalalignment=align,
+    # pylab.text(xloc, yloc, wrapped_label, horizontalalignment=align,
+    pylab.text(xloc, yloc, labels[rid], horizontalalignment=align,
         verticalalignment='center', color=clr, weight='normal', size='9')
 
 
-def generatePlot(input_dir, file_name, output_dir, lines, ground_truth):
+def generatePlot(input_dir, file_name, output_dir, lines, ground_truth, wrong_label=None):
   # pdb.set_trace()
   path_input = input_dir + "/" + file_name  # Image to classify
-  # path_save_file = output_dir + "/results/" + file_name
   path_save_file = output_dir + "/" + file_name
 
   image, prediction = classifyImage(path_input)
 
-  fig = plt.figure(figsize=(4.5, 7.5),facecolor='w') 
+  fig = plt.figure(figsize=(4.5, 7.5),facecolor='w')
 
   AxesGrid(fig, 111, # similar to subplot(141)
       nrows_ncols = (2, 1),
@@ -167,20 +150,19 @@ def generatePlot(input_dir, file_name, output_dir, lines, ground_truth):
   values, labels = getPredictions(prediction, lines, ground_truth)
 
   # print labels
-  drawPredictions(values, labels)
+  drawPredictions(values, labels, wrong_label)
 
   drawImage(image, prediction)
 
   fig.subplots_adjust(left=0.01, bottom=0.501, top=0.95, right=0.5, wspace = 0.05, hspace = 0.05)
 
-  # Save as image instead of pop-up 
+  # Save as image instead of pop-up
   plt.savefig(path_save_file, bbox_inches='tight', dpi=350, pad_inches=0)
   plt.close()
   # print "Saved to file: ", path_save_file
 
   return None
 
-# ---- Main function -----  
 if __name__ == '__main__':
 
   ########## start options process
@@ -190,6 +172,7 @@ if __name__ == '__main__':
   parser.add_argument('-o', '--output_dir', type=str, default="/Users/cwang/projects/sparse_representation/example/output")
   parser.add_argument('-s', '--synset_dir', type=str, default="/Users/cwang/projects/sparse_representation/example")
   parser.add_argument('-n', '--ignore_prefix', type=int, default=1)
+  parser.add_argument('-t', '--wrong_label', type=str, default='guacamole')
   args = parser.parse_args()
 
   input_dir = os.path.abspath(args.input_dir)
@@ -225,6 +208,8 @@ if __name__ == '__main__':
 
   number = len(file_list)
   for i in tqdm(range(number)):
-      generatePlot(input_dir, file_list[i], output_dir, lines, file_list[i][5:])
-
+      if args.ignore_prefix:
+        generatePlot(input_dir, file_list[i], output_dir, lines, file_list[i], args.wrong_label)
+      else:
+        generatePlot(input_dir, file_list[i], output_dir, lines, file_list[i][5:])
 

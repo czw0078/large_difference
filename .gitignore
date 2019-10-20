@@ -6,5 +6,6 @@
 *.pbs.o*
 *.swp
 *.unit
+.DS_Store
 tags
 !results/**
