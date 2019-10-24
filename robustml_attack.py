@@ -110,7 +110,7 @@ class BPDA(robustml.attack.Attack):
     def __init__(self, sess, model, epsilon, 
             max_steps=1000, learning_rate=0.1, lam=1e-6, debug=False, 
             n_shapes=200, type_primitive='1', tmp_index=1, tmp_dir='./ram',
-            early_stop=True): 
+            early_stop=True, unbound=True): 
         self._sess = sess
         self._n_shapes=n_shapes
         self._model = model
@@ -130,6 +130,7 @@ class BPDA(robustml.attack.Attack):
         self._learning_rate = learning_rate
         self._debug = debug
         self._early_stop = early_stop
+        self._unbound = unbound
         self._type_primitive = type_primitive
         self._tmp_index = tmp_index
         self._tmp_dir = tmp_dir
@@ -162,6 +163,11 @@ class BPDA(robustml.attack.Attack):
                 if self._debug:
                     print('returning early', file=sys.stderr)
                 break
+            if self._early_stop and y not in p and self._unbound:
+                # we're done
+                if self._debug:
+                    print('unbound attack returning early', file=sys.stderr)
+                break
             x_adv += self._learning_rate * g
             x_adv = np.clip(x_adv, 0, 1)
         return x_adv
@@ -180,6 +186,7 @@ def main():
     parser.add_argument('--snapshot_adv', action='store_true')
     parser.add_argument('--n_snapshot', type=int, default=-1) 
     parser.add_argument('--early_stop', action='store_true')
+    parser.add_argument('--unbound', action='store_true')
     parser.add_argument('--n_shapes_defense', type=int, default=200)
     parser.add_argument('--n_shapes_attack_BPDA', type=int, default=200)
     parser.add_argument('--max_steps_attack', type=int, default=20)
@@ -206,7 +213,7 @@ def main():
             n_shapes=args.n_shapes_attack_BPDA, max_steps=args.max_steps_attack,
             type_primitive=args.type_primitive_attack_BPDA,
             tmp_index=args.start, tmp_dir=args.primitive_tmp_dir,
-            early_stop=args.early_stop) 
+            early_stop=args.early_stop, unbound=args.unbound) 
     elif args.attack=='PGD':
         attack = PGD(sess, model, model.threat_model.epsilon, debug=args.debug,
             max_steps=args.max_steps_attack, early_stop=args.early_stop)
