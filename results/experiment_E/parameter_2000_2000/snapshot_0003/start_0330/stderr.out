@@ -1,0 +1,55 @@
+2019-10-24 14:41:25.106434: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-24 14:41:25.436153: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2599950000 Hz
+2019-10-24 14:41:25.442048: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2aaae6e513a0 executing computations on platform Host. Devices:
+2019-10-24 14:41:25.442141: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-10-24 14:41:25.444502: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+evaluating 330 of [330, 340)
+attack: step 1/10, xent loss = 30.0398, l2 loss = 30.9639 (max 14.95), (true 525, predicted [84])
+unbound attack returning early
+check failed
+true = 525, adv = 84
+evaluating 331 of [330, 340)
+attack: step 1/10, xent loss = 15.7359, l2 loss = 18.0428 (max 14.95), (true 490, predicted [679])
+unbound attack returning early
+check failed
+true = 490, adv = 679
+evaluating 332 of [330, 340)
+attack: step 1/10, xent loss = 21.8028, l2 loss = 23.7409 (max 14.95), (true 192, predicted [191])
+unbound attack returning early
+check failed
+true = 192, adv = 191
+evaluating 333 of [330, 340)
+attack: step 1/10, xent loss = 8.21505, l2 loss = 12.8986 (max 14.95), (true 535, predicted [840])
+returning early
+true = 535, adv = 840
+evaluating 334 of [330, 340)
+attack: step 1/10, xent loss = 16.6796, l2 loss = 19.568 (max 14.95), (true 64, predicted [943])
+unbound attack returning early
+check failed
+true = 64, adv = 943
+evaluating 335 of [330, 340)
+attack: step 1/10, xent loss = 25.1459, l2 loss = 22.1628 (max 14.95), (true 5, predicted [793])
+unbound attack returning early
+check failed
+true = 5, adv = 793
+evaluating 336 of [330, 340)
+attack: step 1/10, xent loss = 24.3228, l2 loss = 21.6369 (max 14.95), (true 935, predicted [927])
+unbound attack returning early
+check failed
+true = 935, adv = 927
+evaluating 337 of [330, 340)
+attack: step 1/10, xent loss = 30.0171, l2 loss = 38.2489 (max 14.95), (true 792, predicted [728])
+unbound attack returning early
+check failed
+true = 792, adv = 728
+evaluating 338 of [330, 340)
+attack: step 1/10, xent loss = 41.1397, l2 loss = 38.3685 (max 14.95), (true 278, predicted [728])
+unbound attack returning early
+check failed
+true = 278, adv = 728
+evaluating 339 of [330, 340)
+attack: step 1/10, xent loss = 20.6157, l2 loss = 25.1754 (max 14.95), (true 806, predicted [774])
+unbound attack returning early
+check failed
+true = 806, adv = 774
+Warning: Permanently added 'node199,192.168.10.199' (RSA) to the list of known hosts.

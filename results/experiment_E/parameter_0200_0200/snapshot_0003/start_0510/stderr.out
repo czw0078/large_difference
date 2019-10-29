@@ -1,0 +1,63 @@
+2019-10-27 18:18:35.288851: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-27 18:18:35.491260: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600265000 Hz
+2019-10-27 18:18:35.497308: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55555902f560 executing computations on platform Host. Devices:
+2019-10-27 18:18:35.497353: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-10-27 18:18:35.498967: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+evaluating 510 of [510, 520)
+attack: step 1/10, xent loss = 0.375351, l2 loss = 7.80614 (max 14.95), (true 610, predicted [610])
+attack: step 2/10, xent loss = 0.121192, l2 loss = 8.27739 (max 14.95), (true 610, predicted [610])
+attack: step 3/10, xent loss = 0.212312, l2 loss = 8.32466 (max 14.95), (true 610, predicted [610])
+attack: step 4/10, xent loss = 0.283359, l2 loss = 8.51196 (max 14.95), (true 610, predicted [610])
+attack: step 5/10, xent loss = 0.658224, l2 loss = 8.81905 (max 14.95), (true 610, predicted [610])
+attack: step 6/10, xent loss = 0.490109, l2 loss = 10.5645 (max 14.95), (true 610, predicted [610])
+attack: step 7/10, xent loss = 1.68199, l2 loss = 11.7874 (max 14.95), (true 610, predicted [465])
+returning early
+true = 610, adv = 610
+evaluating 511 of [510, 520)
+attack: step 1/10, xent loss = 9.8877, l2 loss = 13.4274 (max 14.95), (true 293, predicted [692])
+returning early
+true = 293, adv = 879
+evaluating 512 of [510, 520)
+attack: step 1/10, xent loss = 8.12964, l2 loss = 15.2732 (max 14.95), (true 401, predicted [557])
+unbound attack returning early
+check failed
+true = 401, adv = 557
+evaluating 513 of [510, 520)
+attack: step 1/10, xent loss = 7.68469, l2 loss = 21.2201 (max 14.95), (true 280, predicted [775])
+unbound attack returning early
+check failed
+true = 280, adv = 879
+evaluating 514 of [510, 520)
+attack: step 1/10, xent loss = 9.57211, l2 loss = 28.2607 (max 14.95), (true 773, predicted [619])
+unbound attack returning early
+check failed
+true = 773, adv = 619
+evaluating 515 of [510, 520)
+attack: step 1/10, xent loss = 0.96814, l2 loss = 8.69375 (max 14.95), (true 407, predicted [407])
+attack: step 2/10, xent loss = 2.37113, l2 loss = 9.21036 (max 14.95), (true 407, predicted [407])
+attack: step 3/10, xent loss = 0.388155, l2 loss = 10.2547 (max 14.95), (true 407, predicted [407])
+attack: step 4/10, xent loss = 0.738883, l2 loss = 10.3647 (max 14.95), (true 407, predicted [407])
+attack: step 5/10, xent loss = 0.735773, l2 loss = 10.7168 (max 14.95), (true 407, predicted [407])
+attack: step 6/10, xent loss = 0.923927, l2 loss = 10.9831 (max 14.95), (true 407, predicted [407])
+attack: step 7/10, xent loss = 0.575872, l2 loss = 11.2713 (max 14.95), (true 407, predicted [407])
+attack: step 8/10, xent loss = 0.982379, l2 loss = 11.4013 (max 14.95), (true 407, predicted [407])
+attack: step 9/10, xent loss = 0.770424, l2 loss = 11.8901 (max 14.95), (true 407, predicted [407])
+attack: step 10/10, xent loss = 1.58862, l2 loss = 12.199 (max 14.95), (true 407, predicted [407])
+true = 407, adv = 407
+evaluating 516 of [510, 520)
+attack: step 1/10, xent loss = 2.82611, l2 loss = 25.4648 (max 14.95), (true 506, predicted [619])
+unbound attack returning early
+check failed
+true = 506, adv = 619
+evaluating 517 of [510, 520)
+attack: step 1/10, xent loss = 8.03428, l2 loss = 9.65818 (max 14.95), (true 284, predicted [728])
+returning early
+true = 284, adv = 728
+evaluating 518 of [510, 520)
+attack: step 1/10, xent loss = 3.19353, l2 loss = 8.00888 (max 14.95), (true 904, predicted [868])
+returning early
+true = 904, adv = 868
+evaluating 519 of [510, 520)
+attack: step 1/10, xent loss = 9.22462, l2 loss = 10.3418 (max 14.95), (true 537, predicted [723])
+returning early
+true = 537, adv = 723

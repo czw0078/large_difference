@@ -1,0 +1,64 @@
+2019-10-25 12:27:03.925709: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-25 12:27:03.964721: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600005000 Hz
+2019-10-25 12:27:03.967982: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2aaae6e52500 executing computations on platform Host. Devices:
+2019-10-25 12:27:03.968023: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-10-25 12:27:03.969702: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+evaluating 560 of [560, 570)
+attack: step 1/10, xent loss = 38.9922, l2 loss = 38.4733 (max 14.95), (true 448, predicted [728])
+unbound attack returning early
+check failed
+true = 448, adv = 728
+evaluating 561 of [560, 570)
+attack: step 1/10, xent loss = 15.6382, l2 loss = 18.0065 (max 14.95), (true 463, predicted [927])
+unbound attack returning early
+check failed
+true = 463, adv = 927
+evaluating 562 of [560, 570)
+attack: step 1/10, xent loss = 0.266536, l2 loss = 2.82339 (max 14.95), (true 769, predicted [769])
+attack: step 2/10, xent loss = 1.22324, l2 loss = 3.08477 (max 14.95), (true 769, predicted [769])
+attack: step 3/10, xent loss = 1.89006, l2 loss = 4.39385 (max 14.95), (true 769, predicted [769])
+attack: step 4/10, xent loss = 1.90998, l2 loss = 5.93645 (max 14.95), (true 769, predicted [769])
+attack: step 5/10, xent loss = 5.31847, l2 loss = 7.28594 (max 14.95), (true 769, predicted [121])
+returning early
+true = 769, adv = 121
+evaluating 563 of [560, 570)
+attack: step 1/10, xent loss = 42.2638, l2 loss = 36.3217 (max 14.95), (true 568, predicted [955])
+unbound attack returning early
+check failed
+true = 568, adv = 955
+evaluating 564 of [560, 570)
+attack: step 1/10, xent loss = 12.8212, l2 loss = 16.7468 (max 14.95), (true 839, predicted [975])
+unbound attack returning early
+check failed
+true = 839, adv = 975
+evaluating 565 of [560, 570)
+attack: step 1/10, xent loss = 20.4038, l2 loss = 33.6513 (max 14.95), (true 785, predicted [838])
+unbound attack returning early
+check failed
+true = 785, adv = 838
+evaluating 566 of [560, 570)
+attack: step 1/10, xent loss = 0.0386993, l2 loss = 0.536699 (max 14.95), (true 348, predicted [348])
+attack: step 2/10, xent loss = 0.0349062, l2 loss = 0.551169 (max 14.95), (true 348, predicted [348])
+attack: step 3/10, xent loss = 0.0386347, l2 loss = 0.566859 (max 14.95), (true 348, predicted [348])
+attack: step 4/10, xent loss = 0.0555348, l2 loss = 0.587236 (max 14.95), (true 348, predicted [348])
+attack: step 5/10, xent loss = 0.0374174, l2 loss = 0.604863 (max 14.95), (true 348, predicted [348])
+attack: step 6/10, xent loss = 0.0485282, l2 loss = 0.618249 (max 14.95), (true 348, predicted [348])
+attack: step 7/10, xent loss = 0.0516108, l2 loss = 0.635764 (max 14.95), (true 348, predicted [348])
+attack: step 8/10, xent loss = 0.0413746, l2 loss = 0.656129 (max 14.95), (true 348, predicted [348])
+attack: step 9/10, xent loss = 0.0593227, l2 loss = 0.674642 (max 14.95), (true 348, predicted [348])
+attack: step 10/10, xent loss = 0.038744, l2 loss = 0.705422 (max 14.95), (true 348, predicted [348])
+true = 348, adv = 348
+evaluating 567 of [560, 570)
+attack: step 1/10, xent loss = 6.43515, l2 loss = 10.9833 (max 14.95), (true 572, predicted [927])
+returning early
+true = 572, adv = 936
+evaluating 568 of [560, 570)
+attack: step 1/10, xent loss = 0.596479, l2 loss = 2.37832 (max 14.95), (true 301, predicted [301])
+attack: step 2/10, xent loss = 1.01452, l2 loss = 2.92362 (max 14.95), (true 301, predicted [304])
+returning early
+true = 301, adv = 301
+evaluating 569 of [560, 570)
+attack: step 1/10, xent loss = 26.3468, l2 loss = 26.8255 (max 14.95), (true 686, predicted [728])
+unbound attack returning early
+check failed
+true = 686, adv = 728

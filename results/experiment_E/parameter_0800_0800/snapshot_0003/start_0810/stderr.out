@@ -1,0 +1,69 @@
+2019-10-26 23:08:39.187244: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-26 23:08:39.197076: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600125000 Hz
+2019-10-26 23:08:39.197344: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55555902f830 executing computations on platform Host. Devices:
+2019-10-26 23:08:39.197381: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-10-26 23:08:39.197770: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+evaluating 810 of [810, 820)
+attack: step 1/10, xent loss = 8.99963, l2 loss = 16.3868 (max 14.95), (true 634, predicted [788])
+unbound attack returning early
+check failed
+true = 634, adv = 582
+evaluating 811 of [810, 820)
+attack: step 1/10, xent loss = 29.2494, l2 loss = 36.3011 (max 14.95), (true 950, predicted [728])
+unbound attack returning early
+check failed
+true = 950, adv = 728
+evaluating 812 of [810, 820)
+attack: step 1/10, xent loss = 0.10177, l2 loss = 3.30358 (max 14.95), (true 879, predicted [879])
+attack: step 2/10, xent loss = 0.0551972, l2 loss = 3.3478 (max 14.95), (true 879, predicted [879])
+attack: step 3/10, xent loss = 0.0394689, l2 loss = 3.37739 (max 14.95), (true 879, predicted [879])
+attack: step 4/10, xent loss = 0.28999, l2 loss = 3.38979 (max 14.95), (true 879, predicted [879])
+attack: step 5/10, xent loss = 0.0272293, l2 loss = 3.59322 (max 14.95), (true 879, predicted [879])
+attack: step 6/10, xent loss = 0.053192, l2 loss = 3.5994 (max 14.95), (true 879, predicted [879])
+attack: step 7/10, xent loss = 0.112531, l2 loss = 3.61671 (max 14.95), (true 879, predicted [879])
+attack: step 8/10, xent loss = 0.0233486, l2 loss = 3.68058 (max 14.95), (true 879, predicted [879])
+attack: step 9/10, xent loss = 0.0831192, l2 loss = 3.68714 (max 14.95), (true 879, predicted [879])
+attack: step 10/10, xent loss = 0.0823752, l2 loss = 3.71631 (max 14.95), (true 879, predicted [879])
+true = 879, adv = 879
+evaluating 813 of [810, 820)
+attack: step 1/10, xent loss = 0.00341155, l2 loss = 0.32201 (max 14.95), (true 902, predicted [902])
+attack: step 2/10, xent loss = 0.00267767, l2 loss = 0.32352 (max 14.95), (true 902, predicted [902])
+attack: step 3/10, xent loss = 0.0060557, l2 loss = 0.324933 (max 14.95), (true 902, predicted [902])
+attack: step 4/10, xent loss = 0.00948671, l2 loss = 0.330589 (max 14.95), (true 902, predicted [902])
+attack: step 5/10, xent loss = 0.00665827, l2 loss = 0.337851 (max 14.95), (true 902, predicted [902])
+attack: step 6/10, xent loss = 0.0140248, l2 loss = 0.34183 (max 14.95), (true 902, predicted [902])
+attack: step 7/10, xent loss = 0.00452317, l2 loss = 0.35802 (max 14.95), (true 902, predicted [902])
+attack: step 8/10, xent loss = 0.00464681, l2 loss = 0.36183 (max 14.95), (true 902, predicted [902])
+attack: step 9/10, xent loss = 0.00470151, l2 loss = 0.364423 (max 14.95), (true 902, predicted [902])
+attack: step 10/10, xent loss = 0.00485468, l2 loss = 0.3671 (max 14.95), (true 902, predicted [902])
+true = 902, adv = 902
+evaluating 814 of [810, 820)
+attack: step 1/10, xent loss = 12.5444, l2 loss = 26.7904 (max 14.95), (true 627, predicted [412])
+unbound attack returning early
+check failed
+true = 627, adv = 728
+evaluating 815 of [810, 820)
+attack: step 1/10, xent loss = 23.4492, l2 loss = 32.5912 (max 14.95), (true 715, predicted [667])
+unbound attack returning early
+check failed
+true = 715, adv = 667
+evaluating 816 of [810, 820)
+attack: step 1/10, xent loss = 10.0679, l2 loss = 21.2718 (max 14.95), (true 847, predicted [750])
+unbound attack returning early
+check failed
+true = 847, adv = 750
+evaluating 817 of [810, 820)
+attack: step 1/10, xent loss = 12.8023, l2 loss = 17.8318 (max 14.95), (true 168, predicted [167])
+unbound attack returning early
+check failed
+true = 168, adv = 167
+evaluating 818 of [810, 820)
+attack: step 1/10, xent loss = 18.3382, l2 loss = 21.0765 (max 14.95), (true 502, predicted [797])
+unbound attack returning early
+check failed
+true = 502, adv = 797
+evaluating 819 of [810, 820)
+attack: step 1/10, xent loss = 6.03778, l2 loss = 18.1692 (max 14.95), (true 617, predicted [667])
+unbound attack returning early
+check failed
+true = 617, adv = 723

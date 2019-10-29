@@ -1,0 +1,6 @@
+2019-10-24 14:49:58.383773: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-24 14:50:01.926862: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600195000 Hz
+2019-10-24 14:50:02.326308: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55555902f840 executing computations on platform Host. Devices:
+2019-10-24 14:50:02.326412: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-10-24 14:50:02.414511: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+=>> PBS: job killed: walltime 14438 exceeded limit 14400
