@@ -1,6 +1,6 @@
 #!/bin/bash
 # for i_start in {0..999..10}
-for i_start in 10 140 250 340 390 750
+for i_start in 420 
 do
     let "i_end = i_start + 10"
     result_folder=$(printf 'parameter_%04d_%04d/snapshot_%04d/start_%04d' $2 $3 $4 $i_start)
