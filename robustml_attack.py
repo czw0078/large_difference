@@ -37,7 +37,7 @@ class NA(robustml.attack.Attack): # no attack at all
             raise NotImplementedError
         p, ll2, lxent, g = self._sess.run(
 	    [self._model.predictions, self._l2, self._xent, self._grad],
-	    {self._input: x_orig, self._label: y, self._l2_input: x_orig, self._original: x_orig}
+	    {self._input: x_adv, self._label: y, self._l2_input: x_adv, self._original: x_orig}
         )
         if self._debug:
             print(
@@ -49,7 +49,7 @@ class NA(robustml.attack.Attack): # no attack at all
                 self._epsilon,
                 y,
                 p), file=sys.stderr)
-        return x_orig
+        return x_adv
 
 class PGD(robustml.attack.Attack): # max_steps = 1000
     def __init__(self, sess, model, epsilon, max_steps=20, learning_rate=0.1, lam=1e-6, debug=False, early_stop=True):

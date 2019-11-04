@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=1:00:00
+#PBS -m e
+#PBS -M chengfeiwang.aka.chance@gmail.com
+#PBS -o ../results/experiment_H/${RESULT_FOLDER}/stdout.out 
+#PBS -e ../results/experiment_H/${RESULT_FOLDER}/stderr.out 
+parameter=$(printf '%04d_%04d' ${N_DEFENSE} ${N_ATTACK})
+cd ~/sparse_representation
+mkdir -p /dev/shm/ram/parameter_$parameter
+python robustml_attack.py --imagenet-path ./test_val_1k --defense primitive --n_shapes_defense ${N_DEFENSE} --debug --attack none --n_shapes_attack_BPDA ${N_ATTACK} --start ${START} --end ${END} --primitive_tmp_dir /dev/shm/ram/parameter_$parameter --n_snapshot ${SNAPSHOT}
+
