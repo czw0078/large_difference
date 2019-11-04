@@ -2,10 +2,11 @@ import sys
 # import ipdb
 fNameList = sys.argv[1:]
 
-# debug
 # p3 collect_distortion.py $(ls snapshot_0003/star*/stderr.out)
-#
-# fNameList = ['snapshot_0001/start_0000/stderr.out', 'snapshot_0002/start_0000/stderr.out',
+
+# debug
+# fNameList = ['snapshot_0001/start_0000/stderr.out',
+#        'snapshot_0002/start_0000/stderr.out',
 #        'snapshot_0003/start_0000/stderr.out']
 
 correct = False
