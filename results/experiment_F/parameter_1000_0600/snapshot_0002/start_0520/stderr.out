@@ -1,35 +1,44 @@
-2019-10-18 13:48:09.497103: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
-2019-10-18 13:48:09.503639: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600005000 Hz
-2019-10-18 13:48:09.503804: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x5555590309d0 executing computations on platform Host. Devices:
-2019-10-18 13:48:09.503829: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
-2019-10-18 13:48:09.504081: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2019-11-04 01:09:56.215383: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-11-04 01:09:56.224062: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2599755000 Hz
+2019-11-04 01:09:56.224214: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55555902e8e0 executing computations on platform Host. Devices:
+2019-11-04 01:09:56.224237: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-11-04 01:09:56.224466: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
 evaluating 520 of [520, 530)
-attack: step 1/1, xent loss = 6.01928, l2 loss = 0 (max 14.95), (true 523, predicted [748])
+attack: step 1/1, xent loss = 7.83751, l2 loss = 17.4559 (max 14.95), (true 523, predicted [893])
+check failed
 true = 523, adv = 842
 evaluating 521 of [520, 530)
-attack: step 1/1, xent loss = 0.156092, l2 loss = 0 (max 14.95), (true 244, predicted [244])
+attack: step 1/1, xent loss = 0.385193, l2 loss = 36.88 (max 14.95), (true 244, predicted [244])
+check failed
 true = 244, adv = 238
 evaluating 522 of [520, 530)
-attack: step 1/1, xent loss = 0.498137, l2 loss = 0 (max 14.95), (true 360, predicted [360])
-true = 360, adv = 360
+attack: step 1/1, xent loss = 0.0420152, l2 loss = 44.758 (max 14.95), (true 360, predicted [360])
+check failed
+true = 360, adv = 728
 evaluating 523 of [520, 530)
-attack: step 1/1, xent loss = 0.266688, l2 loss = 0 (max 14.95), (true 276, predicted [276])
+attack: step 1/1, xent loss = 4.34845, l2 loss = 40.9921 (max 14.95), (true 276, predicted [106])
+check failed
 true = 276, adv = 728
 evaluating 524 of [520, 530)
-attack: step 1/1, xent loss = 0.0493024, l2 loss = 0 (max 14.95), (true 345, predicted [345])
-true = 345, adv = 345
+attack: step 1/1, xent loss = 6.13798, l2 loss = 41.713 (max 14.95), (true 345, predicted [112])
+check failed
+true = 345, adv = 728
 evaluating 525 of [520, 530)
-attack: step 1/1, xent loss = 1.86163, l2 loss = 0 (max 14.95), (true 330, predicted [331])
+attack: step 1/1, xent loss = 0.954516, l2 loss = 21.2693 (max 14.95), (true 330, predicted [331])
+check failed
 true = 330, adv = 692
 evaluating 526 of [520, 530)
-attack: step 1/1, xent loss = 0.432207, l2 loss = 0 (max 14.95), (true 856, predicted [856])
-true = 856, adv = 866
+attack: step 1/1, xent loss = 1.79069, l2 loss = 20.0594 (max 14.95), (true 856, predicted [866])
+check failed
+true = 856, adv = 728
 evaluating 527 of [520, 530)
-attack: step 1/1, xent loss = 0.0346474, l2 loss = 0 (max 14.95), (true 186, predicted [186])
-true = 186, adv = 552
+attack: step 1/1, xent loss = 5.5761, l2 loss = 41.038 (max 14.95), (true 186, predicted [343])
+check failed
+true = 186, adv = 728
 evaluating 528 of [520, 530)
-attack: step 1/1, xent loss = 0.0037926, l2 loss = 0 (max 14.95), (true 572, predicted [572])
+attack: step 1/1, xent loss = 0.00334454, l2 loss = 2.02393 (max 14.95), (true 572, predicted [572])
 true = 572, adv = 572
 evaluating 529 of [520, 530)
-attack: step 1/1, xent loss = 0.0533556, l2 loss = 0 (max 14.95), (true 88, predicted [88])
+attack: step 1/1, xent loss = 0.788882, l2 loss = 37.0009 (max 14.95), (true 88, predicted [88])
+check failed
 true = 88, adv = 728
