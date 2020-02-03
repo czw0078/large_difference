@@ -4,18 +4,11 @@ from numpy import median
 
 # result after running in bash shell:
 # ls experiment_E/parameter_2000_2000/snapshot_000*/start_0010/stderr.out experiment_E/parameter_2000_2000/snapshot_000*/start_0020/stderr.out
-#
-# debug_input = [
-# 'experiment_E/parameter_2000_2000/snapshot_0001/start_0010/stderr.out',
-# 'experiment_E/parameter_2000_2000/snapshot_0002/start_0010/stderr.out',
-# 'experiment_E/parameter_2000_2000/snapshot_0003/start_0010/stderr.out',
-# 'experiment_E/parameter_2000_2000/snapshot_0001/start_0020/stderr.out',
-# 'experiment_E/parameter_2000_2000/snapshot_0002/start_0020/stderr.out',
-# 'experiment_E/parameter_2000_2000/snapshot_0003/start_0020/stderr.out']
 
-files = sys.argv[1:]
-# files = debug_input[:3]
+# files = ['experiment_C/parameter_0000_0000/snapshot_0001/start_0010/stderr.out']
+files = ['experiment_D/parameter_2000_0000/snapshot_0001/start_0010/stderr.out']
 
+# files = sys.argv[1:]
 files.sort()
 broken = set()
 ID = None
@@ -35,7 +28,17 @@ for each_file in files:
                 if true_label != predict_label and ID not in broken:
                     broken.add(ID)
                     broken_record.append((l2_loss, ID))
+            elif line[:6] == "true =":
+                 tags = line.split()
+                 true_label = int(tags[2][:-1])
+                 predict_label = int(tags[-1])
+                 if ID in broken and true_label == predict_label:
+                     broken.remove(ID)
+                     broken_record.pop()
+
 broken_record.sort()
+# debug
+# print(broken_record)
 acc = []
 for i in range(len(broken_record)):
     TOTAL -= 1
