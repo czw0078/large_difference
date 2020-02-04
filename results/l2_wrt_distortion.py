@@ -6,9 +6,9 @@ from numpy import median
 # ls experiment_E/parameter_2000_2000/snapshot_000*/start_0010/stderr.out experiment_E/parameter_2000_2000/snapshot_000*/start_0020/stderr.out
 
 # files = ['experiment_C/parameter_0000_0000/snapshot_0001/start_0010/stderr.out']
-files = ['experiment_D/parameter_2000_0000/snapshot_0001/start_0010/stderr.out']
+# files = ['experiment_D/parameter_2000_0000/snapshot_0001/start_0010/stderr.out']
 
-# files = sys.argv[1:]
+files = sys.argv[1:]
 files.sort()
 broken = set()
 ID = None
