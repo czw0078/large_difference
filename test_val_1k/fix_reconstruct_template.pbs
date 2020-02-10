@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=25:00:00
+#PBS -m e
+#PBS -M chengfeiwang.aka.chance@gmail.com
+#PBS -o ./reconstruct/parameter_${n}/std.log 
+#PBS -e ./reconstruct/parameter_${n}/err.log 
+cd ~/sparse_representation/test_val_1k
+echo 0800;
+for each in ./resize/*; do
+    output_filename=$(basename $each);
+    output=reconstruct/parameter_0800/$output_filename;
+    if [ -f "$output" ]; then
+        echo "$output exist" 
+    else
+        ~/go/bin/primitive -i "$each" -o "$output" -n 800 -s 299;
+    fi
+done

@@ -1,1 +1,1378 @@
-=>> PBS: job killed: walltime 36034 exceeded limit 36000
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
+ERROR: number argument must be > 0
+  -a int
+    	alpha value (default 128)
+  -bg string
+    	background color (hex)
+  -i string
+    	input image path
+  -j int
+    	number of parallel workers (default uses all cores)
+  -m int
+    	0=combo 1=triangle 2=rect 3=ellipse 4=circle 5=rotatedrect 6=beziers 7=rotatedellipse 8=polygon (default 1)
+  -n value
+    	number of primitives
+  -nth int
+    	save every Nth frame (put "%d" in path) (default 1)
+  -o value
+    	output image path
+  -r int
+    	resize large input images to this size (default 256)
+  -rep int
+    	add N extra shapes per iteration with reduced search
+  -s int
+    	output image size (default 1024)
+  -v	verbose
+  -vv
+    	very verbose
