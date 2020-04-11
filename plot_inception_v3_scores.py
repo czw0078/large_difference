@@ -129,7 +129,7 @@ def drawPredictions(values, labels, wrong_label=None):
     # No stroke
     # pylab.text(xloc, yloc, wrapped_label, horizontalalignment=align,
     pylab.text(xloc, yloc, labels[rid], horizontalalignment=align,
-        verticalalignment='center', color=clr, weight='normal', size='9')
+        verticalalignment='center', color=clr, weight='heavy', size='14')
 
 
 def generatePlot(input_dir, file_name, output_dir, lines, ground_truth, wrong_label=None):
