@@ -1,6 +1,7 @@
-# sparse_representation
-Repo of the source code for the paper "Sparse Representation And Adversarial Robustness" 
+# Improving robustness of deep neural network via large-difference transformation
+This is the source code repo for the paper "Improving robustness of deep neural network via large-difference transformation" https://www.sciencedirect.com/science/article/pii/S092523122100504X 
 
+# Requirements
 * [install](https://github.com/fogleman/primitive) the go language and the app "primitive" at ~/go/bin/primitive 
 * python 3.7 and tensorflow 1.13 tested
 * git clone this repo
@@ -8,7 +9,7 @@ Repo of the source code for the paper "Sparse Representation And Adversarial Rob
 
 This framework use pre-trained model, the author used cpu version of tensorflow and python from Anaconda.
 
-# File Structure:
+## Files Overview:
 
 * pkl stored in test_val_1k/parameter_xxxx/snapshot_xxxx/start_xxxx
 controlled by provider
@@ -19,18 +20,21 @@ controlled by the .pbs
 * primitive tmp files stored in dev/shm/ram/parameter_xxxx
 controlled by the .pbs
 
-# Check Completeness
+## Running commands
+Some useful commands for runing experiments. Due to the large computation resource required for reconstruct the image, we run them on the cluster with job batch runing and schedule system called PBS.
+
+### Check Completeness
 ```bash
 tail -n 1 start_*/*out.out;
 ```
 
-# Clean And Re-run:
+### Clean And Re-run:
 ```bash
 ./submit_multiple_jobs_fix.sh experiment_E_template.pbs 1400 1400 1
 qstat -u czw0078
 ```
 
-# Analysis
+### Analysis
 bash script
 
 ```bash
