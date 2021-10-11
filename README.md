@@ -1,6 +1,8 @@
 # Improving robustness of deep neural network via large-difference transformation
 This is the source code repo for the paper "Improving robustness of deep neural network via large-difference transformation" https://www.sciencedirect.com/science/article/pii/S092523122100504X 
 
+![alt text](./teaser_2.pdf)
+
 ## Requirements
 * [install](https://github.com/fogleman/primitive) the go language and the app "primitive" at ~/go/bin/primitive 
 * python 3.7 and tensorflow 1.13 tested
